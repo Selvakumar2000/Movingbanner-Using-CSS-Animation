@@ -19,14 +19,14 @@ img{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    animation: zoomout 3s linear infinite;
+    /* animation: zoomout 3s linear infinite; */
 }
 
-@keyframes zoomout{
+/* @keyframes zoomout{
     100%{
         width: 100%;
     }
-}  
+}   */
 
 .text-box{
     width: 600px;
@@ -34,16 +34,16 @@ img{
     top: 200px;
     left: 100px;
     color: rgb(253, 247, 247);
-    animation: textup 23s ease-out infinite;
-    transform: translateY(100px);
+    animation: textup 3s ease-out infinite;
+    transform: translateX(800px);
 }
 
 @keyframes textup{
     10%{
-        transform: translateY(0px);
+        transform: translateX(0px);
     }
     100%{
-        transform: translateY(100px);
+        transform: translateX(100px);
     }
 
 }
@@ -173,4 +173,3 @@ img{
 .text-box4{
     animation-delay: 9s;
 }
-
